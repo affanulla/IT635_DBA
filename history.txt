@@ -1,0 +1,59 @@
+    1  sudo apt-get update
+    2  sudo apt-get install synaptic
+    3  sudo synaptic
+    4  cd..
+    5  exit
+    6  sudo synaptic
+    7  mysql
+    8  mysql -u root -p
+    9  sudo mysql -u root -p
+   10  use mysql;
+   11  history
+   12  mysql
+   13  sudo mysql
+   14  123245
+   15  sudo mysql
+   16  history
+   17  sudo mysql -u root -p
+   18  sudo apt-grep install php
+   19  sudo apt-get install php
+   20  sudo apt-get install git
+   21  ls
+   22  mkdir it635
+   23  ls
+   24  cd it635/
+   25  ls
+   26  git init
+   27  git status
+   28  mysqldump -u root -p Classes > backup.sql
+   29  cat backup.sql 
+   30  git add backup.sql
+   31  git status
+   32  git rm --cached backup.sql
+   33  git status
+   34  git add backup.sql
+   35  git status
+   36  git commit -m "First commit try"
+   37  git config --global user.email "as2784@njit.edu"
+   38  git config --global user.name "affanulla"
+   39  git commit -m "First commit try"
+   40  gitk
+   41  sudo apt install gitk
+   42  gitk
+   43  git remote add origin https://github.com/affanulla/IT635_DBA.git
+   44  git push -u origin master
+   45  git status
+   46  history > history.txt
+   47  git status
+   48  git commit -am "update history"
+   49  gitk
+   50  history > history.txt
+   51  git status
+   52  gitk
+   53  history
+   54  git add history.txt
+   55  git status
+   56  gitk
+   57  git push -u origin master
+   58  git status
+   59  history > history.txt
