@@ -114,3 +114,145 @@
   114  gitk
   115  git log
   116  history > history.txt
+    1  sudo apt-get update
+    2  sudo apt-get install synaptic
+    3  sudo synaptic
+    4  cd..
+    5  exit
+    6  sudo synaptic
+    7  mysql
+    8  mysql -u root -p
+    9  sudo mysql -u root -p
+   10  use mysql;
+   11  history
+   12  mysql
+   13  sudo mysql
+   14  123245
+   15  sudo mysql
+   16  history
+   17  sudo mysql -u root -p
+   18  sudo apt-grep install php
+   19  sudo apt-get install php
+   20  sudo apt-get install git
+   21  ls
+   22  mkdir it635
+   23  ls
+   24  cd it635/
+   25  ls
+   26  git init
+   27  git status
+   28  mysqldump -u root -p Classes > backup.sql
+   29  cat backup.sql 
+   30  git add backup.sql
+   31  git status
+   32  git rm --cached backup.sql
+   33  git status
+   34  git add backup.sql
+   35  git status
+   36  git commit -m "First commit try"
+   37  git config --global user.email "as2784@njit.edu"
+   38  git config --global user.name "affanulla"
+   39  git commit -m "First commit try"
+   40  gitk
+   41  sudo apt install gitk
+   42  gitk
+   43  git remote add origin https://github.com/affanulla/IT635_DBA.git
+   44  git push -u origin master
+   45  git status
+   46  history > history.txt
+   47  git status
+   48  git commit -am "update history"
+   49  gitk
+   50  history > history.txt
+   51  git status
+   52  gitk
+   53  history
+   54  git add history.txt
+   55  git status
+   56  gitk
+   57  git status
+   58  history > history.txt
+   59  git status
+   60  history
+   61  gitk
+   62  git clone https://github.com/engineerOfLies/IT635Spring17.git
+   63  gitk
+   64  fg 3
+   65  fg2
+   66  fg 2
+   67  fg 1
+   68  gitk
+   69  fg 
+   70  cat .bash
+   71  vim bash
+   72  vim .bash
+   73  cd ..
+   74  vim .bash
+   75  cat .bash
+   76  history
+   77  vim .bash
+   78  sudo vim .bash
+   79  cat .bashrc
+   80  vim .bashrc
+   81  ls 
+   82  bash
+   83  ./bash
+   84  ./~bash
+   85  ~/.bash
+   86  cd ..
+   87  vim .bash
+   88  cat .bash
+   89  mysql -u root -p
+   90  sudo apt-get install php;
+   91  sudo apt-get install git;
+   92  git status
+   93  ls
+   94  cd it635/
+   95  git status
+   96  mysqldump -u root -p Classes > backup.sql
+   97  git status
+   98  ls
+   99  gedit backup.sql
+  100  cat backup.sql
+  101  git rm --cached backup.sql
+  102  git status
+  103  git add backup.sql
+  104  git status
+  105  history > history.txt
+  106  git status
+  107  git commit -m "Second Commit"
+  108  git status
+  109  ls
+  110  cd ..
+  111  ls
+  112  gitk
+  113  cd it635/
+  114  gitk
+  115  git log
+  116  history > history.txt
+  117  git status
+  118  git add history.txt
+  119  git status
+  120  git commint -m "added history"
+  121  git commit -m "added history"
+  122  git status
+  123  ls
+  124  history
+  125  git push -u origin master
+  126  git status
+  127  git push
+  128  ls
+  129  cd IT635Spring17/
+  130  ls
+  131  gitk
+  132  git push
+  133  cd ..
+  134  git clone https://github.com/engineerOfLies/IT635Spring17.git
+  135  cd IT635Spring17/
+  136  git pull
+  137  git status
+  138  git push
+  139  cd ..
+  140  git push
+  141  git pull
+  142  history >> history.txt
