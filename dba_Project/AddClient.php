@@ -1,4 +1,4 @@
-	<form action="/home/affanubuntu/IT635Project/AddClientInfo.php" method="POST">
+	<form action="http://localhost/AddClientInfo.php" method="post">
 	User ID:    <input type="number" name="ID" /> <br><br>
 	First Name: <input type="text" name="fname" /> <br><br>
 	Last Name:  <input type="text" name="lname" /> <br><br>
