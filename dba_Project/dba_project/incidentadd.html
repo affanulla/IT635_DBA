@@ -1,0 +1,16 @@
+<form action="http://localhost/addincident.php" method="post">	
+	Client ID:      <input type="text" name="Cid" /> <br><br>
+	Incident ID:     <input type="number" name="inc_id" /> <br><br>
+	Incident type:   <input type="Text" name="inc_type" /> <br><br>
+	Description:   <input type="Text" name="inc_des" /> <br><br>
+	Outcome:   <input type="Text" name="inc_outcome" /> <br><br>
+	Party fault: <input type="radio" name="fault" value='1'> Owner &nbsp;		
+			<input type="radio" name="fault" value='0'> Other <br> <br>
+	Cost:     <input type="number" name="inc_cost" /> <br><br>
+	Resolved:   <input type="radio" name="inc_resolved" value='1'>Yes 
+		<input type="radio" name="inc_resolved" value='0'>No <br><br> 
+		<input name="add_incident" type="submit" />
+</form>
+<form action="http://localhost/index.html" method="post">
+	<input type="submit" value="Go Home" name="home" /> 
+</form>
