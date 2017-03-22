@@ -14,10 +14,6 @@
 	 
 	while ($row=$result->fetch_assoc())
 	{
-		
-	/*}
- 	while($row = mysql_fetch_array($result))
-	{*/		
 		echo "&nbsp; &nbsp; Total number of incidents: ".$row['COUNT(*)']."<br>";
 		echo "&nbsp; &nbsp; Your fault: ".$row['SUM(owner_fault)']."<br>";
 		echo "&nbsp; &nbsp; Other party's fault: ".$row['SUM(other_fault)']."<br>";
