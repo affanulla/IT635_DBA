@@ -11,21 +11,22 @@
 	if ($owner_fault==0){
 		$other_fault = 1;
 	} 
-	 	
-
-		$db_connection = new mysqli("localhost","root","12345","test");
+	
+	$db_connection = new mysqli("localhost","root","12345","test");
 	
 	if ($db_connection->connect_error) {
 	      die("Connection failed: " . $db_connection->connect_error);
 	    }
   
 	   		
-	    $add_query = "INSERT INTO insurableevent(incident_id,client_id,incident_type,description,outcome,owner_fault,other_fault,cost,resolved) VALUES ('$inc_id','$id','$inc_type','$inc_des', '$inc_outcome','$owner_fault','$other_fault','$inc_cost','$inc_resolved');";
+	$add_query = "INSERT INTO insurableevent(incident_id,client_id,incident_type,description,outcome,owner_fault,other_fault,cost,resolved) VALUES ('$inc_id','$id','$inc_type','$inc_des', '$inc_outcome','$owner_fault','$other_fault','$inc_cost','$inc_resolved');";
 		
 	$result = $db_connection->query($add_query); 
 
-		echo "Incident added \n";
-		echo '<form action="http://localhost/index.html" method="post">';
-			echo '<input type="submit" value="Go Home" name="home" /> </form>';
+	echo "Incident added <br> <br>";
+	echo '<form action="http://localhost/incidentadd.html" method="post">';
+	echo '<input type="submit" value="Add Another Incident" name="Submit" /> </form>';
+	echo '<form action="http://localhost/index.html" method="post">';
+	echo '<input type="submit" value="Go Home" name="home" /> </form>';
 	
 ?>

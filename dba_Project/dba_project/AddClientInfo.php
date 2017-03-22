@@ -8,11 +8,12 @@
 	$email = $_POST['eml'];
 
 
-	 $db_connection = new mysqli("localhost", "root", "12345", "test");
+	$db_connection = new mysqli("localhost", "root", "12345", "test");
   
-	if ($db_connection->connect_error) {
-      die("Connection failed: " . $db_connection->connect_error);
-    }
+	if ($db_connection->connect_error) 
+	{
+      		die("Connection failed: " . $db_connection->connect_error);
+	}
 
     	/*Query to Insert Client Profile. Values from AddClient form */
    
@@ -20,9 +21,11 @@
 	
 	$result = $db_connection->query($add_query); 
 
-	echo "Client Information added \n";
+	echo "Client Information added <br> <br>";
+	echo '<form action="http://localhost/AddClient.php" method="post">';
+	echo '<input type="submit" value="Add Another Client" name="Submit" /> </form>';
 	echo '<form action="http://localhost/index.html" method="post">';
-		echo '<input type="submit" value="Go Home" name="home" /> </form>';
+	echo '<input type="submit" value="Go Home" name="home" /> </form>';
 
 ?>
 
