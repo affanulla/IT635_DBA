@@ -21,7 +21,7 @@
   
 	   		
 	$add_query = "INSERT INTO insurableevent(incident_id,client_id,incident_type,description,outcome,owner_fault,other_fault,cost,resolved) VALUES ('$inc_id','$id','$inc_type','$inc_des', '$inc_outcome','$owner_fault','$other_fault','$inc_cost','$inc_resolved');";
-	echo $add_query;
+	
 		
 	$result = $db_connection->query($add_query); 
 	
